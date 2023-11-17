@@ -9,7 +9,9 @@ pindah ke directory clone lalu composer update
 cd Heeru & composer update
 ```
 
-Pembuatan template models dan database (1 tabel 1 modes dan 1 migration)
+
+#Pembuatan template models dan database (1 tabel 1 modes dan 1 migration)
+(referensi)[https://laravel.com/docs/10.x/migrations#tables]
 ```
 php artisan make:model ModelName -m
 ```
